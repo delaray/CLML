@@ -1,0 +1,37 @@
+Responsive Grids with Garden
+
+Priyatamm Mudivarti
+
+MOTIVATION
+
+- Grid System is an aid
+
+- Many choices: 960x, Bootstrap, Foundation, Jeet, Sysy, Skeleton, Skeljs, Flexbox (50 grid libraries)
+
+- a single grid function create-minimal-grid
+
+- reponsive typography (based on viewport math)
+
+- dynamically inserts css in web page by calling ClojuresCript Functions
+
+- Bootstrap: Container > Row > Column ion markup is limiting
+
+- DIN Paper System (fold in half...)
+
+- Golden FGrid System: A folding grid for responsive design
+
+- Most grid libraries are limited. Need to understand more than colum and rows.
+
+GARDEN
+
+- Everuthing is expressed as DS
+
+- Vectors = Selectors, Maps = Declarations, Rules = Vector of Vectors, Mixins are just defs.
+
+- In SASS, you are recreating language features, not in Garden
+
+- Based on abstractrions over CSS
+
+- Separating Selectors and Declarations: This allows easier specification of combinations by composing themm with HOF.
+
+- Too many global dependencies in CSS. Would like to control a the component level.

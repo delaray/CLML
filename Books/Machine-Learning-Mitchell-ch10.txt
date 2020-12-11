@@ -1,0 +1,612 @@
+LearningSetsofRules
+
+[RecommendedexercisesFtialv[ReadalgorithmsCh.10.2,10.5,10.7,10.8]
+
+
+. 
+SequenOILcoering10.1,10]
+. 
+InductivInductioneLogicasinverseProgrammofdeductioning 
+229 lectureslidesfortextbookMachineLearning,T.Mitchell,McGrawHill,1997 
+
+
+
+LearningDisjunctiveSetsofRules
+
+Metho
+MethoMetho1.2.3.LRemoRepearnd
+ddeatv1:2:oneeLearnSequenpositivruledecisionewithtialexamplescohighveringtree,accuracycoalgorithm:converedvert,banytoythisrulescovruleerage 
+
+
+230 lectureslidesfortextbookMachineLearning,T.Mitchell,McGrawHill,1997 
+
+
+
+TT
+hreshol
+SequentialCovering
+
+Sequential-co. 
+. 
+LearRveringwhiler>uleulTehrned(. 
+perfTeshol(arTlearn-one-rgarulormanceetdges,
+etattrdo. 
+attribute;fg 
+ibute;
+(RAlgorithm 
+ulAttre;
+AttrEibutes;xamplibutes;EesxamplE)
+xamples)es;
+. 
+. 
+perfreturnLear{
+{{{LearEcorrectlyclassiedRruleulxamplnedormanceeLearned(. 
+Traruleslearn-one-rnedgesul. 
+etes
+. 
+oEattrrvul
+. 
+erxamplsortesibute;LearEbxamplyLearesRnedAttrul. 
+nedeesg 
+rf 
+ibutes;ulexamplesresules+ERaccordxampluletoes)
+
+
+231 lectureslidesfortextbookMachineLearning,T.Mitchell,McGrawHill,1997 
+
+
+
+Learn-One-Rule 
+
+
+IF Wind=weak 
+THEN PlayTennis=yes 
+
+
+... 
+
+
+
+IF Wind=strong 
+
+
+IF Humidity=high 
+THEN PlayTennis=no THEN PlayTennis=no
+
+IF Humidity=normal 
+THEN PlayTennis=yes 
+
+IF 
+THEN PlayTennis=yes 
+
+... 
+THEN 
+IF Humidity=normal 
+Wind=weak 
+PlayTennis=yes 
+IF Humidity=normal IF Humidity=normal 
+Wind=strong IF Humidity=normal Outlook=rain 
+THEN PlayTennis=yes Outlook=sunny THEN PlayTennis=yes 
+THEN PlayTennis=yes 
+
+232 lectureslidesfortextbookMachineLearning,T.Mitchell,McGrawHill,1997 
+
+
+
+Learn-One-RPNoseg. 
+pnegativositivuleeeEExampl
+xamplxampleses
+. 
+while{
+{{{L1.2.3.4.
+whileN
+NNeAarnew
+ewewCBPaddNthatddPerandidateestewR
+RRosaNfaBul
+ululRsatisesor,
+lNewnewestitereeNuldomanceew. 
+eNReglalulRliteritermostlegiteruleN. 
+. 
+N(
+eal. 
+alSewNargmaxegalpecialgeneraltotoegsubset,sRdo. 
+ulspNeeewizgeneratecandidatescializeLpreconditions2eRofruleRCandidateul
+ululNeepewN(preconditionsossibleNewRewliterulReNRulalulseege;L))
+
+
+
+{
+{{LearPNosew. 
+RnedulPeosrg 
+ul. 
+esf 
+. 
+memLearbersnedofrPulosesco+vNeredewRbulye
+
+
+. 
+ReturnLearnedrules
+233 lectureslidesfortextbookMachineLearning,T.Mitchell,McGrawHill,1997 
+
+
+
+Subtleties: LearnOneRule
+
+1.EasilyMafunctionsyusegeneralizesbeseartochmulti-valued
+
+2.amtarget
+
+3.Cho. 
+EnSampleaccuracy:osetropevyaluationfunction(i.e.,informationtogain)guidesearch:
+
+. 
+mwherepredictionsestimate:nc=correctnrulecn 
+nncpredictions,mp n=all
+
+
+n+
+++m
+
+234 lectureslidesfortextbookMachineLearning,T.Mitchell,McGrawHill,1997 
+
+
+
+VariantsofRuleLearningPrograms
+
+. 
+Generate-and-test,SeGeneralquential! 
+orspsimultaneecic,or
+ororexample-drivspouseciccovering! 
+general?en?ofdata?
+
+. 
+WhatWhetherstatistiandcalhowevtoaluatipost-prune?onfunction? 
+
+235 lectureslidesfortextbookMachineLearning,T.Mitchell,McGrawHill,1997 
+
+
+
+LearningFirstOrderRules
+
+Wh. 
+Canydolearnthat?setsofrulessuchasy
+
+Ancestor
+AncestorAncestorpurp(
+((x;
+x;x;)
+)). 
+programminglanguageP
+PPar
+ararent
+ententsets(
+((x;
+x;x;z)
+))suc^ 
+Ancestorrules(z;)
+
+
+. 
+PrGeneralolog:programsy
+yyoseareofhy
+236 lectureslidesfortextbookMachineLearning,T.Mitchell,McGrawHill,1997 
+
+
+
+FirstagesOrderRuleforClassifyingW
+
+Peb
+
+
+course(A). 
+ord(A,[Slatteryinstructor),,1997]
+
+Train:31/31,link-from(A,has-w
+has-whas-wNot
+NotNothas-wlink-from(B,ord(B,Test:ord(A,assign),31/34B),goC)od), 
+
+237 lectureslidesfortextbookMachineLearning,T.Mitchell,McGrawHill,1997 
+
+
+
+FOILPNoseg(T. 
+arpnegativgositivetpredicate;eeEExampl
+xamplxamplPresedicates;es Examples)
+. 
+while{
+{{{L1.2.3.4.
+N
+NNwhileeAarnew
+ewewCBargmaxaddNthatddPandidateestewR
+RRosaNaBul
+ululRsatises 
+,
+lNewnewestitereeNuldoLew. 
+2eNRCeglalulRliteriterandidatemostlegiteruleN. 
+. 
+Neal. 
+alewNegalgeneraltotoegsubsetl,sRiterdo. 
+ulspNaleeewsgeneratecandidatescializeFpreconditionsofruleRoilulNGainepewNpreconditionsossibleewR(ulL;ReNulNeegewRule)
+
+
+
+{
+{{LearPNosew. 
+RnedulPeosrg 
+ul. 
+esf 
+. 
+memLearbersnedofrPulosesco+vNeredewRbulye
+
+
+. 
+ReturnLearnedrules
+238 lectureslidesfortextbookMachineLearning,T.Mitchell,McGrawHill,1997 
+
+
+LearningCandidate. 
+created(1;:rule::;ecialir),where(mx;xons2;alreadyat::add;k
+
+
+Qv:literalspvPzati1ust:leastx
+
+
+SpecializingRulesinFOIL
+
+)newexistone. 
+Lliteralof1as:the:a:
+Lvofvnariableiform:inthein
+
+. 
+. 
+literalsEalreadyThethequalrule.negation(xpresenj;xk),oftwhereineitherthexjruleofandthexabkareovevformsariablesof 
+
+239 lectureslidesfortextbookMachineLearning,T.Mitchell,McGrawHill,1997 
+
+
+
+InformationGaininFOIL
+
+WhereFoilGain(L;R). 
+t@0B
+BBlog2p1p+1n1. 
+log2p0p+0n01AC
+CC
+
+. 
+pL0 
+00isthecandidatepositivliteraleetoaddtoofruleRR
+. 
+ptv.
+====then
+nnnnbumb
+bbbbRerof
+ofofofofLofositivpeeofofR
+RR+alsoL
+
+. 
+n
+nnco1
+11iseredum
+umumumumnyer
+ererererb+pnegativ
+negativnegativositivebindings 
+bindingsbindingsbindingsbindingsbindings of
+ofofRR+L
+Note. 
+the. 
+logclass2p0p+0nof0isapoptimalositivebindingnumbercoofvbitseredtobyindicateR
+
+
+240 lectureslidesfortextbookMachineLearning,T.Mitchell,McGrawHill,1997 
+
+
+
+InductionasInvertedDeduction
+
+whereix2 
+sucthat^ 
+ix
+
+Induction(8h 
+isxnding;f(i)i 
+hD)hBh^ 
+x` 
+f(i)
+
+. 
+xBfi(xis
+isisi)otherithisthetraininginstancebactargetkgroundfunctionknowledgevalueforxi
+Soeratorslet'sdesignautomateddeduction!inductivalgorithm yv
+
+opforebinerting 
+
+241 lectureslidesfortextbookMachineLearning,T.Mitchell,McGrawHill,1997 
+
+
+
+\pairsInductionofpeople,asInh 
+u;vertedvi 
+suchDeductionthatchildofuisv," 
+
+f(xxi)i:
+::Male(Bob);FemalChile(dS(harBob;onS)har;Fatheron)(Sharon;Bob)
+
+
+WhatB:satisesh
+hh12:
+::C
+CC(8h 
+hil
+hilhilxd
+ddPi;(
+((u;
+u;u;far(v
+vvxent)
+))i). 
+i 
+(u;2 
+PFDvarather)). 
+entBF^ 
+(
+((v
+vvatherh;
+;;^ 
+u
+uu) 
+))xi(u;` 
+fv()xi)? 
+
+242 lectureslidesfortextbookMachineLearning,T.Mitchell,McGrawHill,1997 
+
+
+Inductiondeduction,thequestiontheis,andcorrespondingofinfact,theebimpeinconceivvoportancecannoterseeration,ederationtosoexistthatof
+
+
+withoutcannotrelativop
+
+arise.inarithmetic?Whoisofatymoreysamewhetheradditionortantimebwtmeenproha
+
+
+ordierence dicultsubtractionthinksButtheaskingthemaimpexistetuccess
+
+
+(Jevthandirectallofaronswhigheredan1874)andythatquestionsdegreein
+ininvinductiverseofopofdiculteration;edeductioninvestigatiy:and:::it:ons:complexitm:
+ustarebofeay 
+
+243 lectureslidesfortextbookMachineLearning,T.Mitchell,McGrawHill,1997 
+
+
+
+InductionasInvertedDeduction
+
+FhainductiveB.
+==,hanicalerators8h 
+ductive` 
+)erators
+
+WneedO(
+((eA;B;Dve)
+))mecChwhere
+wherewhereop(deAx^ 
+i;Bf(xiCopi 
+2 
+D)(B^ 
+h^ 
+xi)` 
+f(xi) 
+
+
+244 lectureslidesfortextbookMachineLearning,T.Mitchell,McGrawHill,1997 
+
+
+InductionasInvertedDeduction
+
+P. 
+ositivSubsumestrainingDomaines:theorydataearlierBideahelpsofdenendingmeaninghthat\ts"of\t"
+
+
+. 
+theSuggestsalgorithmsdata B^ 
+hthat^ 
+xisearc` 
+f(hxi)HguidedbyB 
+245 lectureslidesfortextbookMachineLearning,T.Mitchell,McGrawHill,1997 
+
+
+
+NegativInductionasInvertedDeduction
+
+Doesn'tes:(8h 
+alloxi;fw(xfori)i 
+noisy2 
+D)data.(B^ 
+Consider^ 
+xi)` 
+f(xi)
+
+. 
+! 
+!!Firstoinvtractabiliertting...orderlogictyofgivcalculatiesahugengh
+hhallypothesisacceptablespaceh'sH 
+
+
+246 lectureslidesfortextbookMachineLearning,T.Mitchell,McGrawHill,1997 
+
+
+
+Deduction: ResolutionRule
+
+1.: 
+P
+PPLGivfromorm_ 
+___R 
+RRL initial resolvCclausessuctthatCbandincludingL2ccursndliteralsliteralclause2
+
+
+2.Fenclausethe1enhC1y: 
+Co,allinaLC
+
+
+precisely1theCC,ofLo(
+andf: 
+.More
+
+
+fromconclusionC,andC=isset(2C1except. 
+literalsf 
+g 
+)for[ 
+LCccurring2. 
+: 
+LLing 
+)the
+
+wheredierence.[ 
+denotessetunion,and\. 
+"denotesset
+
+
+247 lectureslidesfortextbookMachineLearning,T.Mitchell,McGrawHill,1997 
+
+
+
+Inverting Resolution 
+
+
+KnowMaterial
+
+C : PassExamV 
+KnowMaterial C : PassExamV 
+
+1 
+
+1 
+
+C : KnowMaterial V 
+Study
+
+2 
+
+
+C : KnowMaterial V 
+Study
+
+2 
+
+PassExam StudyC: V 
+C: PassExamV 
+Study 
+
+248 lectureslidesfortextbookMachineLearning,T.Mitchell,McGrawHill,1997 
+
+
+
+InvertedResolution(Propositional)
+
+1.2.GivthatFfolloormenwingotheccursinitialliteralsecondinclausesclausesclauseC
+CC11,Candbut2byCnot,includingndinclausealiteraltheC.L
+
+C2=(C. 
+(C1. 
+f 
+Lg 
+))[ 
+f: 
+Lg 
+
+
+249 lectureslidesfortextbookMachineLearning,T.Mitchell,McGrawHill,1997 
+
+
+
+Firstorderresolution
+
+First1.FindclauseL1order=a: 
+CliteralL2resolution:,2andLsubstitution1fromclauseCsuc1,hliteralthatL2from
+
+
+2.theFfromMoreormconclusionCpreciselythe1Candresolv=(CC,C1
+enthe2. 
+is,tf 
+exceptCsetL1bg 
+ofy)includingliterals[ 
+for(CL21. 
+oandf 
+ccurringallL2g 
+literals: 
+)L2in. 
+
+250 lectureslidesfortextbookMachineLearning,T.Mitchell,McGrawHill,1997 
+
+
+
+InvertingFirstorderresolution
+
+
+C2=(C. 
+(C1. 
+f 
+L1g 
+)1)2..1[ 
+f: 
+L112..1g 
+
+
+251 lectureslidesfortextbookMachineLearning,T.Mitchell,McGrawHill,1997 
+
+
+
+Cigol 
+
+
+Father (Shannon, Tom) 
+
+Father (Tom, Bob) 
+
+GrandChild( y,x) V 
+
+Father(x,z) V
+
+ Father (z,y) 
+
+
+{Bob/y, Tom/z} 
+
+GrandChild(Bob,x) V 
+
+Father(x,Tom) 
+
+
+{Shannon/x} 
+
+GrandChild(Bob, Shannon) 
+
+252 lectureslidesfortextbookMachineLearning,T.Mitchell,McGrawHill,1997 
+
+
+
+Progol
+
+Prmost1.Userandogolspformsecicsp:ReduceeciesofacceptableargumenHcombybstatingpredicates, functions, explosionhtsallowedbforygeneratingeachthe
+
+
+2.FPr. 
+orFindBogoleac^ 
+hhmosth 
+^ 
+usesxxi;fsp` 
+sequen(xecicfi)(i 
+x)tialhypcoothesisveringhalgorithm.is.t.
+
+3.spConductgeneral-to-sp{hiypothesis,iconsiders,conlyhosearck-stephypbothesistailmenbty
+
+
+minimecicactuallyumdescriptionhiilengthecicosinghenoundedwith
+
+
+253 lectureslidesfortextbookMachineLearning,T.Mitchell,McGrawHill,1997 
+
+
+
